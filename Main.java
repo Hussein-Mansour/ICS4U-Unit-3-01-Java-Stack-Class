@@ -1,5 +1,3 @@
-<module name="Main.java"/>
-
 /*
 * This program test the stack class
 *
