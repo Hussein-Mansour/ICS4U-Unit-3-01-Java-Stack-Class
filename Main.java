@@ -7,10 +7,8 @@
 */
 
 /**
-* Info about this package doing something for package-info.java file.
+* This is the stack class program.
 */
-package com.intertech.cms.domain;
-
 final class Main {
     /**
     * Constant.
@@ -21,6 +19,14 @@ final class Main {
     */
     public static final int TWENTY_SEVEN = 27;
 
+    /**
+    * Prevent instantiation
+    * Throw an exception IllegalStateException.
+    * if this ever is called
+    *
+    * @throws IllegalStateException
+    *
+    */
     private Main() {
         // Prevent instantiation
         // Optional: throw an exception e.g. AssertionError
@@ -28,8 +34,13 @@ final class Main {
         throw new IllegalStateException("Cannot be instantiated");
     }
 
+    /**
+    * Starting... the main method
+    *
+    * @param args No args will be used
+    */
     public static void main(final String[] args) {
-        HsenStack stack = new HsenStack();
+        final HsenStack stack = new HsenStack();
 
         System.out.println("Stack no Adds:");
         stack.showStack();
