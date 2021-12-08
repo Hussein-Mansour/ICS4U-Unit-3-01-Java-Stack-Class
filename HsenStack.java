@@ -1,3 +1,5 @@
+<module name="JavadocPackage"/>
+
 /*
 * This program is a stack class.
 *
@@ -5,11 +7,6 @@
 * @version 1.0
 * @since   2021-12-07
 */
-
-/**
-* Info about this package doing something for package-info.java file.
-*/
-package com.intertech.cms.domain;
 
 import java.util.ArrayList;
 
