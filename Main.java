@@ -1,3 +1,5 @@
+<module name="JavadocPackage"/>
+
 /*
 * This program test the stack class
 *
