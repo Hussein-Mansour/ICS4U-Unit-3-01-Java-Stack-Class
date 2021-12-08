@@ -9,7 +9,7 @@
 /**
 * Info about this package doing something for package-info.java file.
 */
-package Main.java;
+package com.intertech.cms.domain;
 
 final class Main {
     /**
