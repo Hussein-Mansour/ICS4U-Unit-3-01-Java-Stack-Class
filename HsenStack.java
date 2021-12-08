@@ -1,5 +1,3 @@
-<module name="HsenStack.java"/>
-
 /*
 * This program is a stack class.
 *
