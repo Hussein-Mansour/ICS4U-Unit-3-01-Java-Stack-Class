@@ -8,11 +8,19 @@
 
 import java.util.ArrayList;
 
+/**
+* This is the stack class program.
+*/
 public class HsenStack {
+    /**
+    * Stack vareable.
+    */
+    private ArrayList<Integer> stack = new ArrayList<Integer>();
+
     /**
     * Function adds value to stack.
     *
-    * @param pushValue
+    * @param pushValue push value.
     */
     public void push(final int pushValue) {
         stack.add(pushValue);
@@ -24,9 +32,4 @@ public class HsenStack {
     public void showStack() {
         System.out.println(stack);
     }
-
-    /**
-    * Stack vareable.
-    */
-    private ArrayList<Integer> stack = new ArrayList<Integer>();
 }
