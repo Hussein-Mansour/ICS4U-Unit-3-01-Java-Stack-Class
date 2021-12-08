@@ -6,6 +6,11 @@
 * @since   2021-12-07
 */
 
+/**
+* Info about this package doing something for package-info.java file.
+*/
+package your.project.doSomething;
+
 import java.util.ArrayList;
 
 public class HsenStack {
