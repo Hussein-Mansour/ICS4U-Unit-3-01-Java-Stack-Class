@@ -9,7 +9,7 @@
 /**
 * Info about this package doing something for package-info.java file.
 */
-package HsenStack.java;
+package com.intertech.cms.domain;
 
 import java.util.ArrayList;
 
